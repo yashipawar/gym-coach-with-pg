@@ -5,7 +5,8 @@ import axios from 'axios';
 import exercises from './ExerciseAPI'; 
 import { useExerciseContext } from './ExerciseContext'; 
 
-// axios.defaults.baseURL = 'https://localhost:5000';
+axios.defaults.baseURL = 'https://gym-coach-with-pg.onrender.com';
+
 
 const CreateTemplate = () => {
   const { onSave } = useExerciseContext();

@@ -3,7 +3,8 @@ import axios from 'axios';
 
 import usersData from '../users.json';
 
-// axios.defaults.baseURL = 'https://localhost:5000';
+axios.defaults.baseURL = 'https://gym-coach-with-pg.onrender.com';
+
 
 const ExerciseContext = createContext();
 

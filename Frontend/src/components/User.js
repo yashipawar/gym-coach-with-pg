@@ -8,7 +8,7 @@ import logo from '../images/logo-nav.png';
 
 import axios from 'axios';
 
-// axios.defaults.baseURL = 'https://localhost:5000';
+axios.defaults.baseURL = 'https://gym-coach-with-pg.onrender.com';
 
 const User = () => {
   const { userId } = useParams();
