@@ -302,21 +302,21 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 340) {
-    .container{
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .section__title{
-        flex-direction: column;
-        row-gap: .25rem;
-    }
-    .home__triangle{
-        height: 255px;
-    }
-    .home__triangle-3{
-        width: 260px;
-    }
+@media screen and (max-width: 340px) {
+  .container {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+  }
+  .section__title {
+      flex-direction: column;
+      row-gap: 0.25rem;
+  }
+  .home__triangle {
+      height: 200px; 
+  }
+  .home__triangle-1, .home__triangle-2, .home__triangle-3 {
+      width: calc(100% - 30px);
+  }
 }
 
 /* For medium devices */
